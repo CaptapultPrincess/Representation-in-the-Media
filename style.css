@@ -27,3 +27,17 @@ h2 {
     border: 5px black solid;
     margin:5px;
 }
+
+.home-img{
+    background-color:rgb(34, 10, 69);
+    padding:25px;
+    overflow:hidden;
+}
+.black-box{
+    overflow:auto;
+    background-color:black;
+    padding:5x;
+}
+body{
+    background-color: rgb(210, 228, 234)
+}
