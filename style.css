@@ -35,9 +35,18 @@ img {
     text-align:center;
     padding:15px;
     text-decoration:none;
-    color:white;
+    color:rgb(0, 0, 0);
 }
-
+.btn-red{
+    background-color:rgb(220, 15, 15);
+    border-color:rgb(208, 24, 24);
+    border-radius:10px;
+    font-size:25px;
+    text-align:center;
+    padding:15px;
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+}
 /* The code below centers the text of all h2's on the page. */
 h2 {
     text-align:center;
@@ -75,6 +84,19 @@ p{
     padding:25px;
     width:750px;
     overflow:hidden;
+}
+.video-img{
+    padding:50px;
+    filter:blur(50%);
+    position:fixed;
+    z-index:-1;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.video-text{
+    position:center;
+
 }
 .black-box{
     overflow:auto;
