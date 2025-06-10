@@ -1,12 +1,32 @@
-/* The code below centers the text of all h1's on the page. */
+body{
+    background-color: rgb(255, 255, 209)
+}
 
+/* The code below contains all header bases */
 h1 {
     font-size:60px;
     text-align:center;
     font-family:"Meow Script", sans-serif;
 }
 
-/* The code below centers all images on the page and gives them a width of 400px. */
+h2 {
+    text-align:center;
+    font-size:50px;
+}
+
+h5{
+    font-size:50px;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    padding:0px
+
+}
+/* The code below is for all images. */
 
 img {
     
@@ -21,18 +41,34 @@ img {
     padding:5px;
     border-radius:10px;
 }
-    
-.card-1{
-    color:rgb(22, 19, 2);
-    padding: 0px;
-    font-size:25px;
+
+.home-img{
+    background-color:rgba(3, 55, 46, 0.998);
+    padding:25px;
+    width:750px;
+    overflow:hidden;
 }
-    
-.card-header{
-    background-color:rgb(195, 174, 124);
-    height:320px;
+.video-img{
+    width:600px;
+    padding:60px;
+    filter:blur(100%);
+    position:absolute;
+    z-index:0;
+    text-align:left;
+    border-radius:10cm;
+
 }
-    
+
+.video-img-2{
+    width:600px;
+    padding:60px;
+    filter:blur(100%);
+    z-index:0;
+    float:right;
+    border-radius:10cm;
+
+}
+ /*The code below is for all buttons */
 .btn-primary{
     background-color:rgb(220, 138, 15);
     border-color:rgb(208, 110, 24);
@@ -53,28 +89,13 @@ img {
     text-decoration:none;
     color:rgb(255, 255, 255);
 }
- /*The code below centers the text of all h2's on the page. */
-h2 {
-    text-align:center;
-}
-
-h5{
-    font-size:50px;
-}
 
 /* The code below aligns all the sections horizontally on the bottom. */
 .section-container {
     display:flex;
     justify-content:space-between;
 }
-p{
-    text-align:center;
-    font-size: 20px;
-    padding:0px
 
-}
-
-/* The code below a solid black border to section and puts space between them (the margin). */
 .section {
     border: 5px rgb(0, 0, 0) solid;
     background-color:rgb(0, 0, 0);
@@ -86,24 +107,29 @@ p{
 
 }
 
-.home-img{
-    background-color:rgba(3, 55, 46, 0.998);
-    padding:25px;
-    width:750px;
-    overflow:hidden;
-}
-.video-img{
-    padding:50px;
-    filter:blur(50%);
-    position:fixed;
-    z-index:-1;
-    text-align:center;
-    border-radius:55px;
-    background-color:black;
-
-}
+/* The code below is for all text boxes */
 .video-text{
-    position:center;
+    overflow:hidden;
+    background-color:rgb(185, 172, 139);
+    float:right;
+    height:450px;
+    width:550px;
+    border-radius:50px;
+    padding: 10px;
+    z-index:5;
+    color:rgb(57, 49, 49);
+}
+.video-text-2{
+    overflow:hidden;
+    background-color:rgb(185, 172, 139);
+    float:left;
+    height:450px;
+    width:550px;
+    border-radius:50px;
+    padding: 10px;
+    z-index:5;
+    color:rgb(57, 49, 49);
+    position:absolute;
 
 }
 .black-box{
@@ -111,9 +137,26 @@ p{
     background-color:black;
     padding:5x;
 }
+
 .video-box{
+    background-color:rgb(185, 172, 139);
+    overflow:auto;
+    z-index:-1;
+    height:500px
 
 }
-body{
-    background-color: rgb(255, 255, 209)
+
+
+/* this is for all cards */
+
+.card-1{
+    color:rgb(22, 19, 2);
+    padding-bottom: 0px;
+    font-size:25px;
+    
+}
+  
+.card-header{
+    background-color:rgb(195, 174, 124);
+    height:320px; 
 }
